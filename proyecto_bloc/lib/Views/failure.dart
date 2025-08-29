@@ -7,7 +7,12 @@ class Failure extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-         body: Center(child: Text('ERROR', style: TextStyle(fontSize: 100, fontWeight: FontWeight.bold),)),
+        body: Center(
+          child: Text(
+            'ERROR',
+            style: TextStyle(fontSize: 100, fontWeight: FontWeight.bold),
+          ),
+        ),
       ),
     );
   }
