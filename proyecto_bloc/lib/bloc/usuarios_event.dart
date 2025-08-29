@@ -6,3 +6,5 @@ sealed class UsuariosEvent extends Equatable {
   @override
   List<Object> get props => [];
 }
+
+final class Usuariosbuscar extends UsuariosEvent {}
